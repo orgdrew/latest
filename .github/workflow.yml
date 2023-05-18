@@ -1,6 +1,6 @@
 on:
   release:
-    types: [published]
+    types: [prereleased]
     
     - name: Set latest-prerelease
       uses: EndBug/latest-tag@latest
