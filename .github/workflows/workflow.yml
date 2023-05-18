@@ -1,7 +1,7 @@
 name: Prerelease Tag
 on:
   release:
-    types: [published]
+    types: [prereleased]
 
 jobs:
   run:
